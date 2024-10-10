@@ -63,7 +63,7 @@ def main():
                 ]
         features = [np.array(float_features)]
         final_features = scaler.transform(features)
-        st.set_option('deprecation.showPyplotGlobalUse', False)
+        #st.set_option('deprecation.showPyplotGlobalUse', False)
         # Predict compressive strength
         if st.sidebar.button('Predict'):
             try:
