@@ -4,7 +4,7 @@ import numpy
 def predict(Cement, BFS, Fly_Ash, Water, Superplasticizer, Coarse_Agg, Fine_Agg, Age):
     
     # Load GradientBoost Regression Model
-    model = joblib.load("cement_model_GB.sav")
+    model = joblib.load("concrete_compressive_model_GB.sav")
     
            
     # Making Prediction
