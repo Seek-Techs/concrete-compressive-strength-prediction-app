@@ -23,8 +23,7 @@ unit_options = ['kg/m3', 'lb/ft3']
 selected_unit = st.sidebar.radio('Unit for input:', unit_options)
     
 # Conversion factors
-conversion_factor = 1 
-if selected_unit == 'kg/m3' else 0.0624279606  # lb/ft3
+conversion_factor = 1 if selected_unit == 'kg/m3' else 0.0624279606  # lb/ft3
 
 # Collect inputs
 cement = st.sidebar.number_input(f'Cement quantity ({selected_unit})', min_value=102.0, max_value=540.0) * conversion_factor
