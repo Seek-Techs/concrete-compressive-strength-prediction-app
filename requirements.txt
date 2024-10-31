@@ -1,9 +1,9 @@
-plotly==5.24.1
-joblib==1.4.2
-numpy==2.0.2
-pandas==2.1.4
-scikit-learn==1.3.2
-scipy==1.11.4
-tenacity==9.0.0
+plotly
+joblib
+numpy
+pandas
+scikit-learn
+scipy
+tenacity
 altair<5
-streamlit==1.22.0
+streamlit
