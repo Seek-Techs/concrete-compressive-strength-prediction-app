@@ -7,7 +7,7 @@
 *scaler.pkl
 
 # Ignore Predicted module
-*predicted.py
+*prediction.py
 
 *text.txt
 *Untitled.ipynb
