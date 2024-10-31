@@ -11,3 +11,8 @@
 
 *text.txt
 *Untitled.ipynb
+.ipynb_checkpoints/
+*Untitled-checkpoints.ipynb
+env/
+*Untitled-checkpoint.ipynb
+

@@ -22,7 +22,7 @@ git clone https://github.com/your-username/concrete-compressive-strength-predict
 2. Navigate to the project directory:
 
 ```bash
-cd concrete-compressive-strength
+cd concrete-compressive-strength-prediction-app
 ```
 
 3. Install the required dependencies:
