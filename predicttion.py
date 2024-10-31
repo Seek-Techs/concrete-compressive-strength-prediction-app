@@ -1,13 +1,13 @@
 import joblib
 import numpy
 
-def predict(Cement, BFS, Fly_Ash, Water, Superplasticizer, Coarse_Agg, Fine_Agg, Age):
+# def predict(Cement, BFS, Fly_Ash, Water, Superplasticizer, Coarse_Agg, Fine_Agg, Age):
     
-    # Load GradientBoost Regression Model
-    model = joblib.load("concrete_compressive_model_GB.sav")
+#     # Load GradientBoost Regression Model
+#     model = joblib.load("concrete_compressive_model_GB.sav")
     
            
-    # Making Prediction
-    result = model.predict([[Cement, BFS, Fly_Ash, Water, Superplasticizer, Coarse_Agg, Fine_Agg, Age]])
-    result = numpy.round(result, 4)
-    return result[0]
+#     # Making Prediction
+#     result = model.predict([[Cement, BFS, Fly_Ash, Water, Superplasticizer, Coarse_Agg, Fine_Agg, Age]])
+#     # result = numpy.round(result, 2)
+#     return result

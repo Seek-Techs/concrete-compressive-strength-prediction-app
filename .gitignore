@@ -1,0 +1,13 @@
+# Ignore image files with specific extensions
+*.3.JPG
+*.4.JPG
+
+# Ignore Pickle files containing model data
+*gbr.pkl
+*scaler.pkl
+
+# Ignore Predicted module
+*predicted.py
+
+*text.txt
+*Untitled.ipynb

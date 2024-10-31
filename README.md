@@ -39,16 +39,14 @@ streamlit run app.py
 
 ## Usage
 
-Once the Streamlit app is running, you can enter the concrete mix design parameters in the sidebar and click the "Predict" button to see the predicted compressive strength of the concrete.
+Once the Streamlit app is running, you can enter the concrete mix design parameters in the sidebar and click the "Predict Concrete Compressive Strength" button to see the predicted compressive strength of the concrete.
 
 ## Data
 
 The dataset used for training the model is not provided in this repository. However, you can use your own dataset with similar features to train your own model.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-![The web app image](3.JPG) ![The web app image](4.JPG)
+![The web app image](newplot.png) ![The web app image](updated.PNG)
 ---
 
